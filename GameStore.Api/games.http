@@ -2,7 +2,7 @@ GET http://localhost:5140/games
 
 
 ###
-GET http://localhost:5140/games/3
+GET http://localhost:5140/games/30
 
 ###
 POST http://localhost:5140/games
@@ -10,7 +10,7 @@ Content-Type: application/json
 
 
 {
-  "Name": "The Legend of Zelda: Breath of the Wild",
+  "Name": "",
   "Genre": "An open-world action-adventure game developed and published by Nintendo.",
   "Price": 59.99,
   "ReleaseDate": "2017-03-03"
